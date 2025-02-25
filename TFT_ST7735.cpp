@@ -376,8 +376,11 @@ void TFT_ST7735::init(void)
        if (tabcolor == INITR_GREENTAB)
        {
          commandList(Rcmd2green);
-         colstart = 2;
-         rowstart = 1;
+         //colstart = 2;
+         //rowstart = 1;
+         colstart = 16;
+         rowstart = 0;
+		 
        }
        else if (tabcolor == INITR_GREENTAB2)
        {

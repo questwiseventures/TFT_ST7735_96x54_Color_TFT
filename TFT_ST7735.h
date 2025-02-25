@@ -99,16 +99,16 @@ tftswap(T& a, T& b) { T t = a; a = b; b = t; }
 
 // Change the width and height if required (defined in portrait mode)
 // or use the constructor to over-ride defaults
-#define ST7735_TFTWIDTH  128
-#define ST7735_TFTHEIGHT 160
+#define ST7735_TFTWIDTH  96
+#define ST7735_TFTHEIGHT 54
 
 #define ST7735_INIT_DELAY 0x80
 
 // These are the ST7735 control registers
 // some flags for initR() :(
 
-#define ST7735_TFTWIDTH  128
-#define ST7735_TFTHEIGHT 160
+#define ST7735_TFTWIDTH  96
+#define ST7735_TFTHEIGHT 54
 
 #define ST7735_NOP     0x00
 #define ST7735_SWRESET 0x01
