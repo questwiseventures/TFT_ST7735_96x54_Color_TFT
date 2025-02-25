@@ -1,6 +1,8 @@
 # TFT_ST7735
 
-An Arduino IDE compatible graphics and fonts library for AVR processors with a driver for the ST7735 based TFT displays.
+An Arduino IDE compatible graphics and fonts library for AVR processors with a driver for the ST7735 based TFT displays. 
+
+This library has been adapted for use with the 0.42 Inch 96x54 Color TFT Screen.
 
 The library contains proportional fonts, different sizes can be enabled/disabled at compile time to optimise the use of FLASH memory.  The library has been tested with the UNO, Mega (ATmega328 or ATmega2560 processor) and the Leonardo compatible boards (ATmega32u4 processor).
 
